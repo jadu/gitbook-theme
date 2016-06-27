@@ -4,7 +4,7 @@ A Continuum branded theme for Jadu's GitBooks.
 
 ## How to use
 
-Add the stylesheet for the relevant Continuum product to your `book.json` file.
+Add the stylesheet for the relevant Continuum product to your `book.json` file and run `gitbook build`.
 
 ### CMS
 
