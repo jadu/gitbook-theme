@@ -1,0 +1,25 @@
+.book .book-summary {
+  background-color: rgb(84, 185, 169);
+  background-image: url(logo-cxm-white.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  background-size: 50px;
+  box-shadow: inset -4px 0 0 rgb(69, 154, 140);
+  font-size: 1em;
+}
+
+.book .book-summary ul.summary {
+  background-color: rgb(84, 185, 169);
+  box-shadow: inset -4px 0 0 rgb(69, 154, 140);
+  margin-top: 70px;
+}
+
+.book .book-summary ul.summary li a {
+  color: white;
+}
+
+.book .book-summary ul.summary li a:hover,
+.book .book-summary ul.summary li.active a {
+  background-color: rgb(69, 154, 140);
+  color: white;
+}
