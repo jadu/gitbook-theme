@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-position: 10px 10px;
   background-size: 50px;
-  margin-top: 70px;
+  padding-top: 70px;
 }
 
 .book .book-summary ul.summary li a {
@@ -19,7 +19,7 @@
 }
 
 #book-search-input,
-.book-search {
+.book .book-summary .book-search {
   background-color: transparent;
   border: 1px solid white;
   border-radius: 4px;
