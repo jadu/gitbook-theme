@@ -2,6 +2,8 @@
 
 A Continuum branded theme for Jadu's GitBooks.
 
+![Screenshot of manual themes](assets/continuum/manuals.png)
+
 ## How to use
 
 Add the stylesheet for the relevant Continuum product to your `book.json` file and run `gitbook build`.
