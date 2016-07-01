@@ -9,6 +9,7 @@
   padding-top: 70px;
 }
 
+.book .book-summary ul.summary li,
 .book .book-summary ul.summary li a {
   color: white;
 }
