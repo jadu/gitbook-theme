@@ -1,25 +1,25 @@
+/* 
+  base 
+  rgb(128, 186, 39)
+
+  dark
+  rgb(107, 156, 47)
+*/
+
+@import 'base.css';
+
 .book .book-summary {
   background-color: rgb(128, 186, 39);
-  background-image: url(logo-xfp-white.png);
-  background-repeat: no-repeat;
-  background-position: 10px 10px;
-  background-size: 50px;
   box-shadow: inset -4px 0 0 rgb(107, 156, 47);
-  font-size: 1em;
 }
 
 .book .book-summary ul.summary {
   background-color: rgb(128, 186, 39);
+  background-image: url(logo-cms-white.png);
   box-shadow: inset -4px 0 0 rgb(107, 156, 47);
-  margin-top: 70px;
-}
-
-.book .book-summary ul.summary li a {
-  color: white;
 }
 
 .book .book-summary ul.summary li a:hover,
 .book .book-summary ul.summary li.active a {
   background-color: rgb(107, 156, 47);
-  color: white;
 }

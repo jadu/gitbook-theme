@@ -1,25 +1,25 @@
+/* 
+  base 
+  rgb(45, 134, 179)
+
+  dark
+  rgb(34, 101, 134)
+*/
+
+@import 'base.css';
+
 .book .book-summary {
   background-color: rgb(45, 134, 179);
-  background-image: url(logo-cms-white.png);
-  background-repeat: no-repeat;
-  background-position: 10px 10px;
-  background-size: 50px;
-  box-shadow: inset -4px 0 0 #267196;
-  font-size: 1em;
+  box-shadow: inset -4px 0 0 rgb(34, 101, 134);
 }
 
 .book .book-summary ul.summary {
   background-color: rgb(45, 134, 179);
-  box-shadow: inset -4px 0 0 #267196;
-  margin-top: 70px;
-}
-
-.book .book-summary ul.summary li a {
-  color: white;
+  background-image: url(logo-cms-white.png);
+  box-shadow: inset -4px 0 0 rgb(34, 101, 134);
 }
 
 .book .book-summary ul.summary li a:hover,
 .book .book-summary ul.summary li.active a {
-  background-color: #267196;
-  color: white;
+  background-color: rgb(34, 101, 134);
 }
