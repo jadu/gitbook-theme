@@ -2,6 +2,7 @@
   font-size: 1em;
 }
 
+
 .book .book-summary ul.summary {
   background-repeat: no-repeat;
   background-position: 10px 10px;
@@ -17,6 +18,12 @@
 .book .book-summary ul.summary li a:hover,
 .book .book-summary ul.summary li.active a {
   color: white;
+}
+
+.book .book-summary ul.summary li.header {
+  color: white;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 
 #book-search-input,
